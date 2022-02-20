@@ -1,0 +1,82 @@
+﻿'RPG Game.exe' (Win32): Loaded 'C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\RPG Game\Debug\RPG Game.exe'. Symbols loaded.
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\win32u.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32full.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp_win.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbase.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\opengl32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\glu32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. 
+The thread 0xe630 has exited with code 0 (0x0).
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\windows.storage.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wldp.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SHCore.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\clbcatq.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\AppXDeploymentClient.dll'. 
+'RPG Game.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\AppXDeploymentClient.dll'
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0372545.inf_amd64_56d459236871c3f2\B372333\atiglpxx.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0372545.inf_amd64_56d459236871c3f2\B372333\atioglxx.dll'. 
+'RPG Game.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\u0372545.inf_amd64_56d459236871c3f2\B372333\atioglxx.dll'
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0372545.inf_amd64_56d459236871c3f2\B372333\atioglxx.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\setupapi.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dxva2.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcrypt.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dxgi.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ResourcePolicyClient.dll'. 
+'RPG Game.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\ResourcePolicyClient.dll'
+'RPG Game.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\dxgi.dll'
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\u0372545.inf_amd64_56d459236871c3f2\B372333\atigktxx.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\atiadlxy.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\psapi.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\propsys.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\pdh.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\devobj.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wintrust.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\crypt32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msasn1.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\DXCore.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dinput8.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\InputHost.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\WinTypes.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreMessaging.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreUIComponents.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ws2_32.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntmarta.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\hid.dll'. 
+'RPG Game.exe' (Win32): Loaded 'C:\Windows\SysWOW64\TextInputFramework.dll'. 
+The thread 0x5fa4 has exited with code 0 (0x0).
+The thread 0x72f8 has exited with code 0 (0x0).
+The thread 0xd82c has exited with code 0 (0x0).
+The thread 0x5884 has exited with code 0 (0x0).
+The thread 0xa8b0 has exited with code 0 (0x0).
+The thread 0xc1b4 has exited with code 0 (0x0).
+The thread 0xe39c has exited with code 0 (0x0).
+The thread 0xe5e0 has exited with code 3221225786 (0xc000013a).
+The thread 0xe070 has exited with code 3221225786 (0xc000013a).
+The thread 0x9278 has exited with code 3221225786 (0xc000013a).
+The thread 0xe61c has exited with code 3221225786 (0xc000013a).
+The program '[52280] RPG Game.exe' has exited with code 3221225786 (0xc000013a).
