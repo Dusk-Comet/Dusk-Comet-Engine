@@ -7,6 +7,11 @@
 #include "../Graphics/GUI/Button.hpp"
 #include "../Graphics/GUI/Textbox.hpp"
 #include "../Graphics/GUI/Checkbox.hpp"
+
+#include "../Imgui/imgui.h"
+#include "../Imgui-SFML/imgui-SFML.h"
+
+
 namespace dc
 {
 #pragma region Private
@@ -39,7 +44,7 @@ namespace dc
 
 		std::string title = this->_windowTitle;
 
-		if (dc::Game::pakFileSystem.isUsingAppDataFolder())
+		if (dc::Game::instance().pakFileSystem().isUsingAppDataFolder())
 			title += " (Using AppData Folder)";
 		this->_sfRenderWindow->create
 		(
@@ -48,8 +53,6 @@ namespace dc
 			this->createSFVideoMode()
 		);
 
-
-		_basePanel.setControlSize(this->_internalResolution);
 
 	}
 #pragma endregion
@@ -61,16 +64,6 @@ namespace dc
 		return this->_fontsCascadiaMono;
 	}
 
-
-	void GameWindow::setFocusedPanel(Panel* panelHandle)
-	{
-		this->_focusedPanel = panelHandle;
-	}
-
-	Panel* GameWindow::getFocusedPanel()
-	{
-		return this->_focusedPanel;
-	}
 
 	bool GameWindow::initialize()
 	{
@@ -94,12 +87,17 @@ namespace dc
 		if (!this->isRenderContextValid())
 			return;
 
+
 		this->_windowTitle = windowTitle;
 		this->_internalResolution = internalResolution;
 		this->_windowBorder = windowBorder;
 		this->_freeFormSizing = freeFormResize;
 		this->_closeButton = closeButton;
 		this->createSFRenderWindow();
+
+		_windowSize = dc::Size(this->_sfRenderWindow->getSize().x, this->_sfRenderWindow->getSize().y);
+
+		ImGui::SFML::Init(*this->_sfRenderWindow);
 	}
 
 	void GameWindow::run()
@@ -109,15 +107,15 @@ namespace dc
 
 		_running = true;
 
-
-		this->_basePanel.addChild("button1", new Button());
-		this->_basePanel.addChild("textbox1", new Textbox());
-		this->_basePanel.addChild("checkbox1", new Checkbox());
+		sf::Clock deltaClock;
+		bool fullscreenTempBool = false;
 		while (this->getWindowIsOpen())
 		{
 			sf::Event windowEvent;
 			while (this->_sfRenderWindow->pollEvent(windowEvent))
 			{
+				ImGui::SFML::ProcessEvent(*this->_sfRenderWindow, windowEvent);
+
 				switch (windowEvent.type)
 				{
 				case sf::Event::GainedFocus:
@@ -131,50 +129,106 @@ namespace dc
 					continue;
 					break;
 				case sf::Event::TextEntered:
-					_basePanel.setTextEntered(windowEvent.text.unicode);
+
 					break;
 				case sf::Event::KeyPressed:
-					_basePanel.setKeyPressed(windowEvent.key.code, windowEvent.key.alt, windowEvent.key.control, windowEvent.key.shift);
+
 					break;
 				case sf::Event::KeyReleased:
-					_basePanel.setKeyReleased(windowEvent.key.code, windowEvent.key.alt, windowEvent.key.control, windowEvent.key.shift);
+
 					break;
 				case sf::Event::MouseButtonPressed:
-					_basePanel.setMousePressed((dc::MouseButtons)((int)windowEvent.mouseButton.button));
+
 					break;
 				case sf::Event::MouseButtonReleased:
-					_basePanel.setMouseReleased((dc::MouseButtons)((int)windowEvent.mouseButton.button));
+
 						break;
 				case sf::Event::MouseMoved:
 					//scale the mouse pos
 					float xScale = ((float)this->_internalResolution.x) / (this->_sfRenderWindow->getSize().x);
 					float yScale = ((float)this->_internalResolution.y) / (this->_sfRenderWindow->getSize().y);
 
-					_basePanel.setMousePos(dc::Point(windowEvent.mouseMove.x, windowEvent.mouseMove.y));
 					break;
 				}
 			}
+
+			ImGui::SFML::Update(*this->_sfRenderWindow, deltaClock.restart());
+
 			this->_sfRenderWindow->clear(sf::Color(0xFF, 0x00, 0xFF, 0xFF));
 
+			ImGui::Begin("Dusk Comet Dev Menu");
+			
+			if (ImGui::BeginTabBar("DevMenu#TabBar"))
+			{
+				if (ImGui::BeginTabItem("General"))
+				{
+					ImGui::Text("Tab 1");
+					ImGui::EndTabItem();
+				}
+				if (ImGui::BeginTabItem("Options"))
+				{
 
-			this->_displayDebugText.setString(std::string("Engine Build Date: ") + this->_engineBuildDate + " " + _engineBuildTime);
 
-			_basePanel.invalidate();
+					if (ImGui::Checkbox("Fullscreen", &_fullscreen))
+					{
+						_fullscreen = !_fullscreen;
 
-			_basePanel.update();
+						this->setWindowFullScreen(!_fullscreen);
+					}
 
-			this->_sfRenderWindow->draw(_basePanel);
+					ImGui::Text("Tab 2");
+					ImGui::EndTabItem();
+				}
+				if (ImGui::BeginTabItem("Misc"))
+				{
+					ImGui::Text("Tab 3");
+					ImGui::EndTabItem();
+				}
+				if (ImGui::BeginTabItem("Info"))
+				{
+					ImGui::Text(std::string(std::string("Engine Build Date: ") + this->_engineBuildDate + " " + _engineBuildTime).c_str());
+					ImGui::Text(std::string(std::string("Target Framerate: 60 FPS")).c_str());
+					auto winSize = ImGui::GetWindowSize();
 
+
+					ImGui::DrawLine(sf::Vector2f(0, 0), sf::Vector2f(winSize.x, 0), sf::Color::White);
+					auto textWidth = ImGui::CalcTextSize(":::: System Information ::::").x;
+					ImGui::SetCursorPosX((winSize.x - textWidth) * 0.5f);
+					ImGui::Text(":::: System Information ::::");
+					ImGui::DrawLine(sf::Vector2f(0, 0), sf::Vector2f(winSize.x, 0), sf::Color::White);
+
+#if defined WIN32
+					ImGui::Text(std::string("System: Windows x32").c_str());
+#endif
+#if defined WIN64
+					ImGui::Text(std::string("System: Windows x64").c_str());
+#endif
+					ImGui::DrawLine(sf::Vector2f(0, 0), sf::Vector2f(winSize.x, 0), sf::Color::White);
+					textWidth = ImGui::CalcTextSize(":::: Graphics Information ::::").x;
+					ImGui::SetCursorPosX((winSize.x - textWidth) * 0.5f);
+					ImGui::Text(":::: Graphics Information ::::");
+					ImGui::DrawLine(sf::Vector2f(0, 0), sf::Vector2f(winSize.x, 0), sf::Color::White);
+					ImGui::Text(std::string("Render Backend: SFML - 2.5.1").c_str());
+					ImGui::Text(std::string("Max Texture Size: " + std::string(std::to_string(sf::Texture::getMaximumSize())) + "^2 pixels").c_str());
+
+					ImGui::EndTabItem();
+				}
+			}
+			ImGui::EndTabBar();
+
+			ImGui::End();
+
+			ImGui::SFML::Render(*this->_sfRenderWindow);
 			this->_sfRenderWindow->draw(this->_displayDebugText);
 			this->_sfRenderWindow->display();
 		}
-		this->_focusedPanel = nullptr;
-		this->_basePanel.Dispose();
 
 
 		this->_sfRenderWindow->setActive(false);
 
 		_running = false;
+
+		ImGui::SFML::Shutdown();
 	}
 
 	bool GameWindow::isRenderContextValid()
@@ -189,10 +243,9 @@ namespace dc
 	{
 		if (!this->isRenderContextValid())
 			return;
-
 		this->_sfRenderWindow->setSize(sf::Vector2u(size.x, size.y));
 		this->_sfRenderWindow->setView(sf::View(sf::FloatRect(0, 0, size.x, size.y)));
-		this->_basePanel.setControlSize(size);
+		_windowSize = dc::Size(this->_sfRenderWindow->getSize().x, this->_sfRenderWindow->getSize().y);
 	}
 	Size GameWindow::getWindowSize()
 	{
@@ -221,18 +274,30 @@ namespace dc
 
 	void GameWindow::setWindowFullScreen(const bool& value)
 	{
+
 		auto beforeValue = this->getWindowFullScreen();
+
+		if (!beforeValue)
+			_windowSize = dc::Size(this->_sfRenderWindow->getSize().x, this->_sfRenderWindow->getSize().y);
+
+
 		this->_fullscreen = value;
 
 		if (this->getWindowFullScreen())
 		{
 			if (!beforeValue)
+			{
 				this->createSFRenderWindow();
+
+			}
 		}
 		else
 		{
 			if (beforeValue)
+			{
 				this->createSFRenderWindow();
+				this->setWindowSize(this->_windowSize);
+			}
 		}
 	}
 

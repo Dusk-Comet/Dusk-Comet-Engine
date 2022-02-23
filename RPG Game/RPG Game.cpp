@@ -20,28 +20,28 @@ void gameWindow_OnFocusLost(dc::EventArgs e)
 int main()
 {
 
-	dc::Game::initialize();
+	dc::Game::instance().initialize();
 
 	dc::EventArgs temp;
 
 
 
-	if (dc::Game::getInitializeResult())
+	if (!dc::Game::instance().getInitializeResult())
 	{
-		dc::Game::gameWindow.onFocusGained += gameWindow_OnFocusGained;
-		dc::Game::gameWindow.onFocusLost += gameWindow_OnFocusLost;
-
-		dc::Game::gameWindow.initialize();
-
-		dc::Game::gameWindow.createGameWindow("GameWindow", dc::Size(424, 240), true, false, true);
-
-		dc::Game::gameWindow.setWindowSize(dc::Size(424 * 2, 240 * 2));
-		dc::Game::gameWindow.run();
-	}
-	else
-	{
+		return -1;
 	}
 
+	sf::Texture::getMaximumSize();
+
+	dc::Game::instance().gameWindow().onFocusGained += gameWindow_OnFocusGained;
+	dc::Game::instance().gameWindow().onFocusLost += gameWindow_OnFocusLost;
+
+	dc::Game::instance().gameWindow().initialize();
+
+	dc::Game::instance().gameWindow().createGameWindow("GameWindow", dc::Size(424, 240), true, false, true);
+
+	dc::Game::instance().gameWindow().setWindowSize(dc::Size(424 * 2, 240 * 2));
+	dc::Game::instance().gameWindow().run();
 
 
 	return 0;

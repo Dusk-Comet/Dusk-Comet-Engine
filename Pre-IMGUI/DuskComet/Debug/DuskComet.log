@@ -1,0 +1,1581 @@
+﻿  Game.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xstring(2588,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xstring(2599): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xstring(2599): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xstring(2579): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xstring(2579): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Game.cpp(34): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Game.cpp(34): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Button.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(84,92): warning C4244: 'argument': conversion from 'T' to 't', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              t=uint32_t
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(84,60): warning C4244: 'argument': conversion from 'T' to 't', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              t=uint32_t
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(144,72): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(144,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(145,83): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(145,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(146,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(146,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(148,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(148,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(149,75): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(149,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(150,72): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(150,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(154,76): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(154,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(155,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(155,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(156,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(156,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(158,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(158,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(159,79): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(159,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(160,76): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(160,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(164,81): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(164,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(165,95): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(165,61): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(166,98): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(166,61): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(168,98): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(168,61): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(169,87): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(169,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(170,84): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(170,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(173,101): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(173,60): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(174,101): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(174,63): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(175,104): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(175,63): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(177,104): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(177,63): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(178,104): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(178,60): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(179,101): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(179,60): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(183,72): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(183,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(184,83): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(184,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(185,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(185,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(187,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(187,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(188,75): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(188,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(189,72): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(189,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(197,92): warning C4244: 'argument': conversion from 'T' to 't', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              t=uint32_t
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(197,60): warning C4244: 'argument': conversion from 'T' to 't', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              t=uint32_t
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(205,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(205,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(207,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Button.cpp(207,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Checkbox.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(57,14): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(67,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(67,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(68,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(68,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(69,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(69,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(71,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(71,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(72,73): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(72,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(73,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(73,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(77,68): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(77,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(78,83): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(78,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(79,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(79,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(81,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(81,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(82,71): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(82,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(83,68): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(83,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(87,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(87,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(88,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(88,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(89,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(89,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(91,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(91,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(92,73): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(92,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(93,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(93,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(97,76): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(97,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(98,95): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(98,61): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(99,98): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(99,61): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(101,98): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(101,61): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(102,79): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(102,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(103,76): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(103,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(106,80): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(106,60): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(107,101): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(107,63): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(108,104): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(108,63): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(110,104): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(110,63): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(111,83): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(111,60): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(112,80): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(112,60): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(114,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(114,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(115,86): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(115,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(116,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(116,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(118,89): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(118,58): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(119,73): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(119,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(120,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(120,55): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(129,93): warning C4244: 'argument': conversion from 't' to 'float', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Checkbox.cpp(129,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Form.cpp
+  Panel.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(32,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(158,54): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(158,47): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(159,71): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(159,50): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(160,74): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(160,50): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(161,57): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(161,47): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(174,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(193,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(209,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(223,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(237,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(252,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(273,83): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(273,114): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(299,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Panel.cpp(341,21): warning C4018: '<': signed/unsigned mismatch
+  Textbox.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(84,92): warning C4244: 'argument': conversion from 'T' to 't', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              t=uint32_t
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(84,60): warning C4244: 'argument': conversion from 'T' to 't', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              t=uint32_t
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(165,49): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(177,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(197,33): warning C4018: '>': signed/unsigned mismatch
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(246,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(249,73): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(253,73): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(254,97): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(254,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(256,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(257,96): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(257,67): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(260,100): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(260,70): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(261,93): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(261,67): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(273,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(274,90): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(274,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(276,31): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(285,110): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(285,74): warning C4244: 'argument': conversion from 't' to 'T', possible loss of data
+          with
+          [
+              t=int32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\Graphics\GUI\Textbox.cpp(299,54): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  Event.cpp
+  PakFileFormat.cpp
+  GameWindow.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\GameWindow.cpp(197,75): warning C4244: 'argument': conversion from 'const t' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\GameWindow.cpp(197,67): warning C4244: 'argument': conversion from 'const t' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+  BinaryReader.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\IO\BinaryReader.cpp(23,19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'uint32_t', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\IO\BinaryReader.cpp(28,23): warning C4244: '=': conversion from 'std::streamoff' to 'uint32_t', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\IO\BinaryReader.cpp(103,18): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\IO\BinaryReader.cpp(121,18): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+  BinaryWriter.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\IO\BinaryWriter.cpp(253,23): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\IO\BinaryWriter.cpp(256,47): warning C4244: 'argument': conversion from 'uint64_t' to 'const int', possible loss of data
+  sha256.cpp
+  zlib.cpp
+  Pak.cpp
+  PakFileSystem.cpp
+  DateTime.cpp
+  Console.cpp
+  Generating Code...
+gdi32.lib(GDI32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+openal32.lib(OpenAL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_init already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_setup_managed already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_setup_vbr already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_init_vbr already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_setup_init already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_ctl already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+winmm.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+  DuskComet.vcxproj -> C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\RPG Game\Debug\DuskComet.lib

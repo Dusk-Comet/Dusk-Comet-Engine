@@ -34,9 +34,8 @@ namespace dc
 		GameWindowEventDispatcher<EventArgs> _eventDispatcher;
 
 
-		Panel* _focusedPanel = nullptr;
-
 		Size _internalResolution = Size(32, 32);
+		Size _windowSize = Size(32, 32);
 		std::unique_ptr<sf::RenderWindow> _sfRenderWindow = nullptr;
 
 		std::string _engineBuildDate = __DATE__;
@@ -52,7 +51,6 @@ namespace dc
 		bool _fullscreen = false;
 		bool _running = false;
 
-		Panel _basePanel = Panel();
 		
 		uint32_t createSFVideoMode();
 
@@ -66,16 +64,6 @@ namespace dc
 
 		sf::Font& getFont();
 
-		/// <summary>
-		/// Set the control with focus
-		/// </summary>
-		void setFocusedPanel(Panel* panelHandle);
-
-		/// <summary>
-		/// Gets the control with focus
-		/// </summary>
-		/// <returns></returns>
-		Panel* getFocusedPanel();
 
 
 
@@ -163,9 +151,6 @@ namespace dc
 		/// <para>THIS WILL CLOSE AND RE-OPEN THE WINDOW CONTEXT.</para>
 		/// </summary>
 		void setAllowFreeWindowSizing(const bool& value);
-
-
-
 
 
 	};

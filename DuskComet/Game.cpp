@@ -12,15 +12,15 @@
 
 #include "System/File Format/PakFileFormat.hpp"
 
-bool dc::Game::s_initSuccess = false;
-dc::GameWindow dc::Game::gameWindow = dc::GameWindow();
-dc::PakFileSystem dc::Game::pakFileSystem = dc::PakFileSystem();
+dc::Game dc::Game::_instance = dc::Game();
+
+
 
 namespace dc
 {
 	bool Game::getInitializeResult()
 	{
-		return Game::s_initSuccess;
+		return Game::binitSuccess;
 	}
 
 	void Game::initialize()
@@ -43,14 +43,14 @@ namespace dc
 		PakFileFormat format;
 		format.readDirectory(documentsDir);
 
-		if (Game::pakFileSystem.initialize(additonalPaths.data(), additonalPaths.size()))
+		if (Game::pakFileSystem().initialize(additonalPaths.data(), additonalPaths.size()))
 		{
 
 		}
 
 
 
-		Game::s_initSuccess = true;
+		Game::binitSuccess = true;
 	}
 
 

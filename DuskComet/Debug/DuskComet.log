@@ -1,1 +1,30 @@
-﻿
+﻿  GameWindow.cpp
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\GameWindow.cpp(100,20): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\GameWindow.cpp(247,75): warning C4244: 'argument': conversion from 'const t' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\DuskComet\System\GameWindow.cpp(247,67): warning C4244: 'argument': conversion from 'const t' to 'T', possible loss of data
+          with
+          [
+              t=uint32_t
+          ]
+          and
+          [
+              T=float
+          ]
+gdi32.lib(GDI32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+openal32.lib(OpenAL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_init already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_setup_managed already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_setup_vbr already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_init_vbr already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_setup_init already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: _vorbis_encode_ctl already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+winmm.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+  DuskComet.vcxproj -> C:\Users\angel\Documents\GitHub\Engine\Dusk-Comet-Engine\RPG Game\Debug\DuskComet.lib

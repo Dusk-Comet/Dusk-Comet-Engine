@@ -36,18 +36,23 @@ namespace dc
 				{
 					child->Dispose();
 				}
+				
 			}
+			this->_children.clear();
+
 			_disposed = true;
 		}
 	}
 
-	Panel::~Panel()
-	{
-		if (!_disposed && !_disposing)
-		{
-			Dispose();
-		}
-	}
+	//Panel::~Panel()
+	//{
+	//	std::cout << "Disposing: " << this->_name  << " destructor has been run." << std::endl;
+	//	if (!_disposed && !_disposing)
+	//	{
+	//		Dispose();
+	//	}
+	//	return;
+	//}
 
 
 #pragma region Children
@@ -124,21 +129,21 @@ namespace dc
 	{
 		if (!this->_focused)
 		{
-			if (dc::Game::gameWindow.getFocusedPanel() == this)
-			{
-				//invoke the onFocusGained event
-				_focused = true;
-				this->_defaultEventDispatcher.invokeEvent(this->onFocusGained, EventArgs());
-			}
+			//if (dc::Game::instance().gameWindow().getFocusedPanel() == this)
+			//{
+			//	//invoke the onFocusGained event
+			//	_focused = true;
+			//	this->_defaultEventDispatcher.invokeEvent(this->onFocusGained, EventArgs());
+			//}
 		}
 		else //we do have focus (supposedly)
 		{
-			if (dc::Game::gameWindow.getFocusedPanel() != this)
-			{
-				//invoke the onFocusLost event
-				_focused = false;
-				this->_defaultEventDispatcher.invokeEvent(this->onFocusLost, EventArgs());
-			}
+			//if (dc::Game::instance().gameWindow().getFocusedPanel() != this)
+			//{
+			//	//invoke the onFocusLost event
+			//	_focused = false;
+			//	this->_defaultEventDispatcher.invokeEvent(this->onFocusLost, EventArgs());
+			//}
 		}
 
 		if (this->_invalid)
@@ -206,8 +211,8 @@ namespace dc
 			auto child = _children[i];
 			if (child != nullptr)
 			{
-				if (child == dc::Game::gameWindow.getFocusedPanel())
-					this->_mouseButtonEventDispatcher.invokeEvent(child->onMouseButtonReleased, dc::MouseButtonEventArgs(button));
+				//if (child == dc::Game::instance().gameWindow().getFocusedPanel())
+				//	this->_mouseButtonEventDispatcher.invokeEvent(child->onMouseButtonReleased, dc::MouseButtonEventArgs(button));
 
 			}
 		}
@@ -220,8 +225,8 @@ namespace dc
 			auto child = _children[i];
 			if (child != nullptr)
 			{
-				if (child == dc::Game::gameWindow.getFocusedPanel())
-					child->onKeyPressed(dc::KeyButtonEventArgs(code, alt, control, shift));
+				//if (child == dc::Game::instance().gameWindow().getFocusedPanel())
+				//	child->onKeyPressed(dc::KeyButtonEventArgs(code, alt, control, shift));
 
 			}
 		}
@@ -234,8 +239,8 @@ namespace dc
 			auto child = _children[i];
 			if (child != nullptr)
 			{
-				if (child == dc::Game::gameWindow.getFocusedPanel())
-					child->onKeyReleased(dc::KeyButtonEventArgs(code, alt, control, shift));
+				//if (child == dc::Game::instance().gameWindow().getFocusedPanel())
+				//	child->onKeyReleased(dc::KeyButtonEventArgs(code, alt, control, shift));
 
 			}
 		}
@@ -249,8 +254,8 @@ namespace dc
 			auto child = _children[i];
 			if (child != nullptr)
 			{
-				if (child == dc::Game::gameWindow.getFocusedPanel())
-					child->onTextEntered(dc::TextEnteredEventArgs(unicodeChar));
+				//if (child == dc::Game::instance().gameWindow().getFocusedPanel())
+				//	child->onTextEntered(dc::TextEnteredEventArgs(unicodeChar));
 
 			}
 		}
@@ -314,12 +319,13 @@ namespace dc
 
 	void Panel::requestFocus()
 	{
-		dc::Game::gameWindow.setFocusedPanel(this);
+		//dc::Game::instance().gameWindow().setFocusedPanel(this);
 	}
 
 	bool Panel::isFocused()
 	{
-		return (this == dc::Game::gameWindow.getFocusedPanel());
+		//return (this == dc::Game::instance().gameWindow().getFocusedPanel());
+		return false;
 	}
 
 	void Panel::invalidate()

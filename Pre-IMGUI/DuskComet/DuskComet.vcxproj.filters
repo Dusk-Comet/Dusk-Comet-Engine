@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{71729ebd-d69d-4db5-bd70-c49932f7e44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{60ace9a5-20e4-4db8-ab6c-0fd95f96c723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{07b9085e-2ce3-4fba-9230-cdb45344aaa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{db32387b-5d96-4b88-84cd-d04217a825c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Windows">
+      <UniqueIdentifier>{189d6021-b252-448c-a00d-5d55166d1515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Windows">
+      <UniqueIdentifier>{8a254bb0-bbce-484e-a9e9-6654161d9d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{92205058-3d0e-4db0-8fd7-7868112d9c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources\Fonts">
+      <UniqueIdentifier>{9238f28e-a7b3-4f3b-b557-71544d23a8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI">
+      <UniqueIdentifier>{28b471c1-aa42-4a36-a6cd-a7e8af6f1d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI">
+      <UniqueIdentifier>{0e150756-7aba-43ee-8d76-48bd2383a6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Types">
+      <UniqueIdentifier>{dd0303c2-8f2f-4c87-913f-aead4d070bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Types">
+      <UniqueIdentifier>{89f398f1-b2a5-4ddb-8379-dc36b6409aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\File Format">
+      <UniqueIdentifier>{ba0caedf-e9f5-44c8-afff-fe0270c284e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\File Format">
+      <UniqueIdentifier>{5f816c07-3ff1-41b6-860e-dde70c956afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\I/O">
+      <UniqueIdentifier>{3bf3b06e-bf89-4661-a4db-b2aeaf9f6151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\I/O">
+      <UniqueIdentifier>{1276ef52-edeb-4eab-84b4-baf0b018570e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System\Windows\Console.hpp">
+      <Filter>Header Files\System\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GameWindow.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Fonts\CascadiaMono.hpp">
+      <Filter>Header Files\Resources\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GUI\Panel.hpp">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GUI\Button.hpp">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Event.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GUI\Form.hpp">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FileSystemObjectInfo.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Types\Vectors.hpp">
+      <Filter>Header Files\System\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Types\DateTime.hpp">
+      <Filter>Header Files\System\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="System\PakFileSystem.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Pak.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\File Format\PakFileFormat.hpp">
+      <Filter>Header Files\System\File Format</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GUI\Textbox.hpp">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IO\sha256.hpp">
+      <Filter>Header Files\System\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IO\zlib.hpp">
+      <Filter>Header Files\System\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IO\BinaryReader.hpp">
+      <Filter>Header Files\System\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IO\BinaryWriter.hpp">
+      <Filter>Header Files\System\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GUI\Checkbox.hpp">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System\Windows\Console.cpp">
+      <Filter>Source Files\System\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GameWindow.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GUI\Panel.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GUI\Button.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Event.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GUI\Form.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Types\DateTime.cpp">
+      <Filter>Source Files\System\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="System\PakFileSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Pak.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\File Format\PakFileFormat.cpp">
+      <Filter>Source Files\System\File Format</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GUI\Textbox.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IO\BinaryReader.cpp">
+      <Filter>Source Files\System\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IO\BinaryWriter.cpp">
+      <Filter>Source Files\System\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IO\sha256.cpp">
+      <Filter>Source Files\System\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IO\zlib.cpp">
+      <Filter>Source Files\System\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GUI\Checkbox.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

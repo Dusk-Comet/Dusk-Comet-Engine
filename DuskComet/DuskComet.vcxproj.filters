@@ -61,6 +61,18 @@
     <Filter Include="Source Files\System\I/O">
       <UniqueIdentifier>{1276ef52-edeb-4eab-84b4-baf0b018570e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Imgui">
+      <UniqueIdentifier>{723eeb25-9a47-49b7-98f7-5402863f1131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Imgui">
+      <UniqueIdentifier>{6f717bf2-631c-4a29-bd83-4ab20811fe6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Imgui-SFML">
+      <UniqueIdentifier>{262656ac-70ed-4fcc-8e1c-c336638434a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Imgui-SFML">
+      <UniqueIdentifier>{4d4ad8b0-4468-4a1f-9dc7-0e2a2fde4c6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="System\Windows\Console.hpp">
@@ -123,6 +135,33 @@
     <ClInclude Include="Graphics\GUI\Checkbox.hpp">
       <Filter>Header Files\Graphics\GUI</Filter>
     </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui-SFML\imconfig-SFML.h">
+      <Filter>Header Files\Imgui-SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui-SFML\imgui-SFML.h">
+      <Filter>Header Files\Imgui-SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui-SFML\imgui-SFML_export.h">
+      <Filter>Header Files\Imgui-SFML</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="System\Windows\Console.cpp">
@@ -175,6 +214,24 @@
     </ClCompile>
     <ClCompile Include="Graphics\GUI\Checkbox.cpp">
       <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui-SFML\imgui-SFML.cpp">
+      <Filter>Source Files\Imgui-SFML</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -30,6 +30,9 @@
 #include "System/PakFileSystem.hpp"
 #include "System/GameWindow.hpp"
 
+
+
+
 namespace dc
 {
 #pragma region Constant Expressions
@@ -72,14 +75,23 @@ namespace dc
 	{
 	private:
 
-		static bool s_initSuccess;
+		bool binitSuccess;
+
+
+		static Game _instance;
+
+		dc::GameWindow _gameWindow;
+		dc::PakFileSystem _pakFileSystem;
 
 	public:
-		static void initialize();
-		static bool getInitializeResult();
 
-		static dc::GameWindow gameWindow;
-		static dc::PakFileSystem pakFileSystem;
+		static Game& instance() { return _instance; }
+
+		void initialize();
+		bool getInitializeResult();
+
+		dc::GameWindow& gameWindow() { return _gameWindow; }
+		dc::PakFileSystem& pakFileSystem() { return _pakFileSystem; }
 
 	};
 }
